@@ -1,4 +1,4 @@
-package fr.lewon.nn.examples.engine.elements;
+package fr.lewon.engine.elements;
 
 public enum GameElementType {
 

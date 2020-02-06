@@ -1,7 +1,7 @@
-package fr.lewon.nn.examples.draw.impl;
+package fr.lewon.engine.draw.impl;
 
-import fr.lewon.nn.examples.draw.Draftsman;
-import fr.lewon.nn.examples.engine.elements.GameElement;
+import fr.lewon.engine.draw.Draftsman;
+import fr.lewon.engine.elements.GameElement;
 import javafx.scene.layout.Pane;
 
 public class DraftsmanFx implements Draftsman {

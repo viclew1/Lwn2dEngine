@@ -1,4 +1,4 @@
-package fr.lewon.nn.examples;
+package fr.lewon;
 
 public class Application {
 

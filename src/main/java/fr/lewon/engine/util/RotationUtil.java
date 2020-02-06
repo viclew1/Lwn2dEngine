@@ -1,6 +1,6 @@
-package fr.lewon.nn.examples.engine.util;
+package fr.lewon.engine.util;
 
-import fr.lewon.nn.examples.engine.elements.GameElement;
+import fr.lewon.engine.elements.GameElement;
 
 public class RotationUtil {
 

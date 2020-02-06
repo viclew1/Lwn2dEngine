@@ -1,6 +1,6 @@
-package fr.lewon.nn.examples.engine.util.shapes;
+package fr.lewon.engine.util.shapes;
 
-import fr.lewon.nn.examples.engine.Shape;
+import fr.lewon.engine.Shape;
 
 public class Rectangle extends Shape {
 

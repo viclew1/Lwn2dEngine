@@ -1,6 +1,6 @@
-package fr.lewon.nn.examples.engine;
+package fr.lewon.engine;
 
-import fr.lewon.nn.examples.engine.util.shapes.Rectangle;
+import fr.lewon.engine.util.shapes.Rectangle;
 
 public abstract class Shape {
 

@@ -1,4 +1,4 @@
-package fr.lewon.nn.examples.engine.util.shapes;
+package fr.lewon.engine.util.shapes;
 
 public class Point2D {
 

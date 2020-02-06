@@ -1,7 +1,7 @@
-package fr.lewon.nn.examples.engine.elements;
+package fr.lewon.engine.elements;
 
-import fr.lewon.nn.examples.engine.util.shapes.Point2D;
-import fr.lewon.nn.examples.engine.util.shapes.Rectangle;
+import fr.lewon.engine.util.shapes.Point2D;
+import fr.lewon.engine.util.shapes.Rectangle;
 import javafx.scene.image.Image;
 
 public class GameElement {

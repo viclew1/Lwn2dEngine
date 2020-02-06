@@ -1,7 +1,7 @@
-package fr.lewon.nn.examples.engine.elements.throwable;
+package fr.lewon.engine.elements.throwable;
 
-import fr.lewon.nn.examples.engine.elements.GameElement;
-import fr.lewon.nn.examples.engine.elements.GameElementType;
+import fr.lewon.engine.elements.GameElement;
+import fr.lewon.engine.elements.GameElementType;
 
 public abstract class ThrowableElement extends GameElement {
 

@@ -1,7 +1,7 @@
-package fr.lewon.nn.examples.engine.elements.board;
+package fr.lewon.engine.elements.board;
 
-import fr.lewon.nn.examples.engine.elements.GameElement;
-import fr.lewon.nn.examples.engine.elements.obstacle.Tile;
+import fr.lewon.engine.elements.GameElement;
+import fr.lewon.engine.elements.obstacle.Tile;
 
 import java.util.ArrayList;
 import java.util.List;
