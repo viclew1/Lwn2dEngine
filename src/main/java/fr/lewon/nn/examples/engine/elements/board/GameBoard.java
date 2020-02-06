@@ -1,28 +1,21 @@
-package fr.lewon.nn.examples.game;
+package fr.lewon.nn.examples.engine.elements.board;
 
-import fr.lewon.nn.examples.game.obstacle.ObstacleElement;
+import fr.lewon.nn.examples.engine.elements.GameElement;
+import fr.lewon.nn.examples.engine.elements.obstacle.Tile;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class GameBoard {
 
-    private int width;
-    private int height;
-    private List<ObstacleElement> obstacles = new ArrayList<>();
+    private List<Tile> tiles = new ArrayList<>();
     private List<GameElement> elements = new ArrayList<>();
-
-    public GameBoard(int width, int height) {
-        this.width = width;
-        this.height = height;
-    }
 
     public void init() {
 
     }
 
     public void updateAll() {
-        this.elements.removeIf(g -> !g.isAlive());
         this.updatePositions();
         this.computeCollisions();
     }

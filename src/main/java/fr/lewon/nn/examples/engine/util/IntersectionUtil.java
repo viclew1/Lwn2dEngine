@@ -1,6 +1,6 @@
-package fr.lewon.nn.examples.game.engine.util;
+package fr.lewon.nn.examples.engine.util;
 
-import fr.lewon.nn.examples.game.GameElement;
+import fr.lewon.nn.examples.engine.elements.GameElement;
 
 public class IntersectionUtil {
 

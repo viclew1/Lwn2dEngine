@@ -1,6 +1,6 @@
-package fr.lewon.nn.examples.game.engine.util;
+package fr.lewon.nn.examples.engine.util;
 
-import fr.lewon.nn.examples.game.GameElement;
+import fr.lewon.nn.examples.engine.elements.GameElement;
 
 public class RotationUtil {
 
@@ -16,7 +16,7 @@ public class RotationUtil {
      * @param rotation
      */
     public static void rotateGameElement(GameElement gameElement, double rotation) {
-        double currentOrientation = gameElement.getOrientation();
+        float currentOrientation = gameElement.getOrientation();
         currentOrientation += rotation;
         while (currentOrientation >= TWO_PI) {
             currentOrientation -= TWO_PI;
